@@ -1,0 +1,27 @@
+ul{
+  list-style: none;
+  display: flex;
+  padding-left: 4px;
+}
+li{
+  padding-left: 25px;
+}
+a{
+  text-decoration: none;
+  color: rgb(151, 252, 0);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  color: #e80e82;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+  margin-left: 40px;
+}
+body{
+  background-color: #165598;
+}

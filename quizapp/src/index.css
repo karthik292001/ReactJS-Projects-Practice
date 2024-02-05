@@ -1,0 +1,86 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.header{
+  background-color:orange;
+  padding: 10px;
+}
+.heading{
+  text-align: center;
+  color: green;
+  font-size: larger;
+}
+a{
+  color: rgb(0, 64, 255);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+.content{
+  background-color: rgb(9, 147, 169);
+  font-size: larger;
+  padding: 5%;
+  padding-top: 25px;
+  margin: 0%;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0%;
+  
+}
+.rights{
+  background-color: rgb(85, 167, 3);
+  color: white;
+  text-align: right;
+  height: 50px;
+  padding: 10px;
+  margin-top:0%;
+}
+.submit{
+
+  margin-top: 5%;
+  background-color: burlywood;
+  width: 14%;
+  height: 35px;
+  border-radius: 5px;
+  color: rgb(243, 6, 199);
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+input[type=radio] {
+  appearance: none;
+  padding: 5.5px;
+  background-color: rgb(97, 250, 1);
+  border-radius:50%;
+}
+input[type=radio]:checked {
+  background-color: rgb(241, 133, 24);
+}
+ul{
+  display: flex;
+  list-style: none;
+  margin-left: -20px;
+}
+li{
+  padding-left: 40px;
+}
+
+
+.result{
+  background-color: rgb(255, 249, 249);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color:rgb(193, 4, 180);
+}
+
